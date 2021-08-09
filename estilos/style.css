@@ -1,0 +1,221 @@
+body{
+  background-color: yellow;
+  width: 100%;
+}
+#contenedor{
+  width: 1000px;
+  margin: auto;
+  background-color: #e2e245;
+}
+main{
+  padding: 50px;
+}
+header{
+  padding: 400px 0px 0px 0px;
+  background-image: url("../imagenes/portada.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 40px;
+  margin: 0px;
+}
+h1{
+  margin: 0px;
+}
+/*--------------------------------------------------------*/
+h2{
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+  padding: 0;
+}
+.nombre{
+  font-style: italic;
+}
+#protagonistas{
+  width: 55%;
+  float: left;
+  text-decoration: none;
+  border: solid 1px black;
+  padding: 10px;
+}
+#protagonistas:hover{
+  border: solid 3px  black;
+}
+#protagonistas img{
+  float: left;
+  width:35%;
+  padding: 0px;
+  border-color: black;
+}
+#invitadosespeciales{
+  float: right;
+  width: 35%;
+  padding: 10px;
+  border: solid 1px black;
+}
+#invitadosespeciales:hover{
+  border: solid 3px  black;
+}
+#protagonistas a{
+  text-decoration: none;
+}
+#invitadosespeciales a{
+  text-decoration: none;
+}
+#invitadosespeciales img{
+  width: 80%;
+  padding: 0px;
+  border-color: black;
+}
+article ul{
+  float: right;
+  width: 55%;
+  padding: 0px;
+  color: black;
+}
+section{
+  overflow: auto;
+  margin: 10px;
+}
+article{
+  overflow: auto;
+  margin: 10px;
+  text-align: center;
+}
+article ul{
+  text-align: left;
+}
+/*--------------------------------------------------------*/
+nav {
+  position: sticky;
+  top: 0px;
+}
+nav ul{
+  list-style: none;
+  padding: 0px;
+  overflow: auto;
+  margin: 0;
+  background-color: black;
+}
+nav li {
+  float: left;
+  font-size: 20px;
+  text-align: center;
+}
+nav a{
+  padding: 5px;
+  display: block;
+  color: yellow;
+  text-decoration: none;
+  margin: 10px;
+  transition: .5s;
+}
+nav a:hover{
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+}
+table{
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-color: black;
+}
+#home{
+  float: right;
+}
+/*--------------------------------------------------------*/
+footer{
+  background-color: black;
+  color: yellow;
+  padding: 10px;
+  overflow: auto;
+  }
+footer ul{
+  list-style: none;
+  float: left;
+  width: 40%;
+}
+#zomi{
+  font-family: 'Rock Salt', cursive;
+  float: right;
+  width: 50%;
+  font-size: 20px;
+  text-align: right;
+}
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+#personajes .imagenpersonaje{
+  width: 150px;
+}
+#personajes .columnauno{
+  float: left;
+  padding: 0px;
+  margin: 10px;
+}
+#personajes .columnados{
+  float: right;
+  width: 70%;
+  padding: 10px;
+  margin: 10px;
+}
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+/*--------------------------------------------------------*/
+#especiales .imageninvitado{
+  width: 350px;
+}
+#especiales .columnauno{
+  float: left;
+  padding: 0px;
+  margin: 10px;
+}
+#especiales .columnados{
+  float: right;
+  width: 45%;
+  padding: 10px;
+  margin: 10px;
+}
+/*--------------------------------------------------------*/
+#especiales nav > ul{
+  display: table;
+  width: 100%;
+}
+#especiales nav > ul > li > ul a{
+  display: block;
+  font-size: 20px;
+}
+#especiales nav ul ul{
+  display: none;
+}
+#especiales nav #invitados:hover ul{
+  display: block;
+  width: 1000px;
+}
+#especiales nav #invitados:hover li{
+  float: left;
+}
+#especiales nav li{
+  position: relative;
+}
+#especiales nav > ul > li{
+  float: left;
+  color: yellow;
+  top: 100%;
+}
+#especiales nav > ul > li > ul{
+  top: 100%;
+}
+#especiales nav a:hover{
+  background-color: yellow;
+  color: black;
+  font-weight: bold;
+}
+#especiales nav li ul{
+  position: absolute; 
+}
+#home{
+  left: 817px;
+}
